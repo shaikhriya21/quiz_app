@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>QuizApp</title>
+  <link rel="stylesheet" href="second.css" />
+</head>
+<body oncontextmenu="return false">
+
+  <!-- Welcome Page -->
+  <div id="page-welcome" class="page welcome-page">
+    <div class="welcome-content">
+      <div class="welcome-text">
+        <h1><span class="highlight">Welcome to</span><br />QuizApp</h1>
+        <p>Test your knowledge. Challenge yourself. Enjoy learning!</p>
+        <button class="continue-btn" id="btnContinue">
+          Get Started
+          <span class="arrow">→</span>
+        </button>
+      </div>
+      <div class="welcome-illustration">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Quiz Icon" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign In Page -->
+  <div id="page-signin" class="page hidden">
+    <h2>Sign In</h2>
+    <form id="signin-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+      <label for="number">Number:</label>
+      <input type="tel" id="number" required pattern="[0-9]{10}" placeholder="10 digit number"/>
+      <button type="submit" class="action-btn">Login</button>
+    </form>
+  </div>
+
+  <!-- Quiz Dashboard -->
+  <div id="page-dashboard" class="page hidden">
+    <h2>Quiz Dashboard</h2>
+    <p>Total Questions: <span id="total-questions">10</span></p>
+    <p>Duration per Question: <span id="duration">15</span> seconds</p>
+    <button id="btnStartQuiz" class="action-btn">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Page -->
+  <div id="page-quiz" class="page hidden">
+    <h2 id="question">Question Text</h2>
+    <div id="timer">Time Left: 15s</div>
+    <div id="options"></div>
+    <button id="nextBtn" class="action-btn hidden">Next</button>
+  </div>
+
+  <!-- Score Page -->
+  <div id="page-score" class="page hidden">
+    <h2>Quiz Completed...!!</h2>
+    <div id="score"></div>
+    <div class="score-buttons">
+      <button id="btnPlayAgain" class="action-btn">Play Again</button>
+      <button id="btnReviewAnswers" class="action-btn">Review Answers</button>
+      <button id="btnGoHome" class="action-btn">Home</button>
+    </div>
+  </div>
+
+  <!-- Review Page -->
+  <div id="page-review" class="page hidden">
+    <div class="review-box">
+      <h2>Review Your Answers</h2>
+      <div id="review-content"></div>
+      <button id="btnBackToScore" class="action-btn" style="margin-top:30px;">Back to Results</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

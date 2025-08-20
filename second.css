@@ -1,0 +1,261 @@
+/* Base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #F2F2F2, #EAE4D5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #000000;
+}
+
+.page {
+  background-color: #B6B09F;
+  padding: 30px 40px;
+  border-radius: 16px;
+  width: 700px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  user-select: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Redesigned Welcome Page */
+.welcome-page {
+  padding: 0;
+  background: linear-gradient(120deg, #EAE4D5, #F2F2F2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.welcome-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 50px;
+  height: 500px;
+  background: #fff0e6;
+  border-radius: 20px;
+  animation: slideFadeIn 1.2s ease-out;
+}
+
+.welcome-text {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.welcome-text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.3;
+  margin: 0;
+  color: #2c2c2c;
+}
+
+.welcome-text .highlight {
+  color: #b60000;
+}
+
+.welcome-text p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.welcome-illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-illustration img {
+  max-width: 300px;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes slideFadeIn {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.continue-btn {
+  background-color: #000000;
+  color: #EAE4D5;
+  border: none;
+  padding: 15px 35px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 40px;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.continue-btn:hover {
+  background-color: #000000cc;
+}
+
+.arrow {
+  margin-left: 12px;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* Sign In Page */
+#page-signin form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  user-select: text;
+}
+
+#page-signin label {
+  display: block;
+  margin: 15px 0 5px 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#page-signin input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #000000;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.action-btn {
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: #000000;
+  color: #EAE4D5;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease-in-out;
+  user-select: none;
+}
+
+.action-btn:hover {
+  background-color: #333333;
+}
+
+/* Quiz Page */
+#question {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+
+#timer {
+  font-size: 1.2rem;
+  color: #000000dd;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.option-btn {
+  background-color: #EAE4D5;
+  border: 2px solid #B6B09F;
+  padding: 14px 18px;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  user-select: none;
+  text-align: center;
+}
+
+.option-btn:hover:not(.correct):not(.wrong) {
+  background-color: #B6B09F;
+  color: #F2F2F2;
+  border-color: #000000;
+  transform: scale(1.05);
+}
+
+.correct {
+  background-color: #000000;
+  color: #EAE4D5;
+  border-color: #000000;
+  font-weight: 900;
+}
+
+.wrong {
+  background-color: #B60000;
+  color: #F2F2F2;
+  border-color: #B60000;
+  font-weight: 900;
+}
+
+/* Score Page */
+.score-buttons {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+/* Review Page */
+.review-box {
+  max-width: 700px;
+  margin: 40px auto 0;
+  background: #B6B09F;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  color: #000000;
+  user-select: text;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.review-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #999;
+}
+.review-item h3 {
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+.review-item .answer {
+  margin-left: 15px;
+  font-weight: 700;
+}
+.correct-answer {
+  color: #008000;
+}
+.wrong-answer {
+  color: #B60000;
+}
