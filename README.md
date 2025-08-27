@@ -1,50 +1,47 @@
-📝 Quiz App
+# 📝 Quiz App  
 
-An interactive and responsive web-based Quiz Application built using HTML, CSS, and JavaScript.
-It provides a smooth user experience with a welcome page, sign-in, dashboard, timed quiz, score tracking, and answer review functionality.
+An interactive and responsive web-based **Quiz Application** built using **HTML, CSS, and JavaScript**.  
+It provides a smooth user experience with a **welcome page, sign-in, dashboard, timed quiz, score tracking, and answer review functionality**.  
 
-🚀 Live Demo
+---
 
-👉 Click here to open the live app:https://shaikhriya21.github.io/quiz_app/
+## 🚀 Live Demo  
+👉 [Click here to open the live app](https://shaikhriya21.github.io/quiz_app/)  
 
-📌 Features
+---
 
-✅ Welcome page with engaging UI
-✅ User sign-in with validation (name & number)
-✅ Dashboard displaying quiz details
-✅ Timed questions with countdown per question
-✅ Multiple-choice quiz with next button navigation
-✅ Scoreboard at the end of the quiz
-✅ Review answers after completion
-✅ Option to replay or return to home
-✅ Mobile-friendly & responsive
+## 📌 Features  
 
-🛠️ Technologies Used
+1. **Welcome Page** with engaging UI  
+2. **User Sign-in** with validation (name & number)  
+3. **Dashboard** displaying quiz details  
+4. **Timed Questions** with countdown per question  
+5. **Multiple-choice Quiz** with next button navigation  
+6. **Scoreboard** at the end of the quiz  
+7. **Review Answers** after completion  
+8. **Option to Replay or Return to Home**  
+9. **Mobile-friendly & Responsive** design  
 
-HTML5 – Structure & content
+---
 
-CSS3 – Styling & responsiveness
+## 🛠️ Technologies Used  
 
-JavaScript (Vanilla) – Quiz logic, timer, scoring, review system
+- **HTML5** – Structure & content  
+- **CSS3** – Styling & responsiveness  
+- **JavaScript (Vanilla)** – Quiz logic, timer, scoring, review system  
 
-💻 How to Run Locally
+---
 
-Clone this repository:
+## 💻 How to Run Locally  
 
-git clone https://github.com/shaikhriya21/quiz-app.git
-cd quiz-app
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/shaikhriya21/quiz-app.git
+   cd quiz-app
+##📂 Project Structure
+C:\xampp\htdocs\CodeTechItSolutions\quiz_app
 
-
-Open index.html in your browser.
-
-📂 Project Structure
-quiz-app/
-│── index.html      # Main HTML structure
-│── second.css      # Styling file
-│── script.js       # Quiz logic & interactivity
-│── images/         # (optional) assets like quiz icons
-
-👩‍💻 Developed By
+##👩‍💻 Developed By
 
 Shaikh Riya
 🎓 BCA Student | 💻 Web Developer
