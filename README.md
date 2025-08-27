@@ -38,14 +38,14 @@ It provides a smooth user experience with a **welcome page, sign-in, dashboard, 
    ```bash
    git clone https://github.com/shaikhriya21/quiz-app.git
    cd quiz-app
-##📂 Project Structure
+## 📂 Project Structure
 C:\xampp\htdocs\CodeTechItSolutions\quiz_app
 
-##👩‍💻 Developed By
+## 👩‍💻 Developed By
 
-Shaikh Riya
-🎓 BCA Student | 💻 Web Developer
-📍 Pune, Maharashtra
+**Shaikh Riya**  
+🎓 BCA Student | 💻 Web Developer  
+📍 Pune, Maharashtra  
 
-🌐 https://www.linkedin.com/in/shaikhriya21
- | https://github.com/shaikhriya21
+🌐 [LinkedIn](https://www.linkedin.com/in/shaikhriya21) | [GitHub](https://github.com/shaikhriya21)
+
